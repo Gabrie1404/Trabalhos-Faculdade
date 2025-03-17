@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário-Locadora</title>
+    <style>
+    .imagem img{
+      
+      width: 220px;
+      height: 150px;  
+    }
+
+    </style>
+</head>
+<body>
+   <center> <div class="imagem"><img src="https://a2claudino.wordpress.com/files/2009/09/logo_topcine.jpg" alt="erro"></div> </center> 
+   <h1>Formulário-Locadora</h1>
+   <ul>
+        <li>    <h2>Nome Completo:</li>
+                            <input type="text" name="txtNomeCompleto" size="15" value="" />
+        <li>    <h2>Apelido:</li>
+                            <input type="text" name="txtApelido" size="15" value="" />
+        <li>    <h2>Escolha seu sexo:</li>
+                            <input type="radio" id="rdbSexoMasculino" name="rdbSexo" value="M" >  Masculino
+                            <input type="radio" id="rdbSexoFeminino" name="rdbSexo" value="F"> Feminino
+        <li>    <h2>RG: </li>
+                            <input type="text" name="txtRG" size="15" value="" />
+        <li>    <h2>CPF:</li>
+                            <input type="text" name="txtCPF" size="15" value="" />
+        <li>    <h2>Contato: </li>
+                            <input type="text" name="txtContato" size="15" value="" />
+        <li>    <h2>Endereço: </li>
+                            <input type="text" name="txtEndereco" size="15" value="" />
+        <li>    <h2>Número:</li>
+                            <input type="text" name="txtNumero" size="15" value="" />
+        <li>    <h2>Bairro: </li>
+                            <input type="text" name="txtBairro" size="15" value="" />
+        <li>    <h2>Estado: </li>
+                                <select id="cmbEstado" name="cmbEstado" multiple="multiple">
+                                  <option value=""></option>
+                                  <option value="1">SP</option>
+                                  <option value="2">SE</option>
+                                  <option value="3">RJ</option>
+                                  <option value="4">MS</option>
+                                  <option value="5">RS</option>
+                                  <option value="6">PE</option>
+                              </select>
+        <li>    <h2>Genero de Filmes preferidos:</li>
+                                                    <input type="checkbox" id="chkdrama" name="chkdrama" />  Drama
+                                                    <input type="checkbox" id="chkterror" name="chkterror" /> Terror
+                                                    <input type="checkbox" id="chkacao" name="chkacao" /> Ação
+                                                    <input type="checkbox" id="chkromance" name="chkromance" /> Romance
+                                                    <input type="checkbox" id="chksuspense" name="chksuspense" /> Suspense
+                                                    <input type="checkbox" id="chkcomedia" name="chkcomedia" /> Comédia                      
+          <li>  <h2>Genero de musicas preferidas:</li>
+                                                    <input type="checkbox" id="chkrock" name="chkrock" />  Rock
+                                                    <input type="checkbox" id="chkfunk" name="chkfunk" /> Funk
+                                                    <input type="checkbox" id="chkforro" name="chkforro" /> Forró
+                                                    <input type="checkbox" id="chksertanejo" name="chksertanejo" /> Sertanejo
+                                                    <input type="checkbox" id="chkmpb" name="chkmpb" /> MPB
+                                                    <input type="checkbox" id="chkeletronica" name="chkeletronica" /> Eletronica                                                         
+    </ul>
+    <input type="submit" id="btnSalvar" name="btnSalvar" value="Salvar" />
+</body>
+</html>
